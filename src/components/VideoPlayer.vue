@@ -50,7 +50,6 @@
         max-height: 100vh;
     }
     .blur {
-        background-image: url("./public/blurry.png");
         background-size: cover;
         text-align: center;
     }
