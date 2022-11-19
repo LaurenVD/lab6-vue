@@ -29,7 +29,7 @@
 </script>
 
 <template>
-    <div class="blur">
+    <div class="vid">
         <div class="controls">
             <a @click.prevent="nextVideo" href="#">-></a>
         </div>
@@ -49,8 +49,7 @@
         max-width: 100%;
         max-height: 100vh;
     }
-    .blur {
-        background-size: cover;
+    .vid {
         text-align: center;
     }
 
