@@ -3,12 +3,15 @@
 import VideoPlayer from './components/VideoPlayer.vue'
   // import VideoDetails.vue
 import VideoDetails from './components/VideoDetails.vue'
+  // import Comment.vue
+import Comment from './components/Comment.vue'
 </script>
 
 <template>
   <div class="app" >
     <VideoPlayer />
     <VideoDetails />
+    <Comment />
   </div>
 </template>
 
