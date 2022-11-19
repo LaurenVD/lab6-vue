@@ -10,8 +10,10 @@ import Comment from './components/Comment.vue'
 <template>
   <div class="app" >
     <VideoPlayer />
-    <VideoDetails />
-    <Comment />
+    <div class="details">
+      <VideoDetails />
+      <Comment />
+    </div>
   </div>
 </template>
 
@@ -20,5 +22,9 @@ import Comment from './components/Comment.vue'
   display: grid;
   grid-template-columns: 8fr 4fr;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.details {
+  padding-right: 2rem;
 }
 </style>

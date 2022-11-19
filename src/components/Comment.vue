@@ -49,11 +49,18 @@
                 <p>{{ message.text }}</p>
             </li>
         </ul>
+        <input type="text" v-model="text">
+        <button @click="addComment">Add Comment</button>
     </div>
 </template>
 
 <style scoped>
     div {
         padding: 0 2rem;
+    }
+
+    .comments {
+        display: flex;
+        flex-direction: column;
     }
 </style>
